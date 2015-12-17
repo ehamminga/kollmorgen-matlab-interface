@@ -21,6 +21,9 @@ function [newPos] = setMotionAKD(Position,Traverse)
 
 % Copyright (c) 2015, Erwin Hamminga and The University of Adelaide
 
+% Thanks Kees Stroeken, author of ModBusYaskawa
+% <http://www.mathworks.com/matlabcentral/fileexchange/44662>
+% for the inspiration to construct this function.
 %% Define constants
 tcpip_pipe=Traverse;
 ProtID = uint16(0);     % 16-bit Protocol ID (0 for ModBus)

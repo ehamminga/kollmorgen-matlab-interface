@@ -10,6 +10,10 @@ function toggleAKD(driveInput,AKDDrive)
 
 % Copyright (c) 2015, Erwin Hamminga and The University of Adelaide
 
+% Thanks Kees Stroeken, author of ModBusYaskawa
+% <http://www.mathworks.com/matlabcentral/fileexchange/44662>
+% for the inspiration to construct this function.
+
 tcpip_pipe=AKDDrive;
 
 %% verify current state or enable

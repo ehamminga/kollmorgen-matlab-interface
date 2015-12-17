@@ -9,6 +9,11 @@ function [tcpip_pipe]=openAKDip(IPADDR)
 % See also toggleAKD, setMotionAKD, moveAKD
 
 % Copyright (c) 2015, Erwin Hamminga and The University of Adelaide
+% 
+% Thanks Kees Stroeken, author of ModBusYaskawa
+% <http://www.mathworks.com/matlabcentral/fileexchange/44662>
+% for the inspiration to construct this function.
+
 %%
 PORT=502; %default port
 tcpip_pipe=tcpip(IPADDR, PORT); %IP and Port of AKD drive 
