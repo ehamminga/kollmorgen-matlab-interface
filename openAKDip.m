@@ -4,7 +4,8 @@ function [tcpip_pipe]=openAKDip(IPADDR)
 % TCP/IP and returns a traverse object.
 %
 % Example:
-%   TyM=openAKDip('192.168.0.1');
+%   TyM=openAKDip('192.168.0.2');
+%   Tx=openAKDip('192.168.0.1');
 %
 % See also toggleAKD, setMotionAKD, moveAKD
 
